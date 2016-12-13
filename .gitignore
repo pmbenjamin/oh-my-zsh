@@ -1,5 +1,6 @@
 # custom files
 custom/
+!custom/themes/
 !custom/plugins/example
 !custom/example.zsh
 
