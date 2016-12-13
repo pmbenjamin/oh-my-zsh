@@ -162,6 +162,8 @@ If you have many functions that go well together, you can put them as a `XYZ.plu
 
 If you would like to override the functionality of a plugin distributed with Oh My Zsh, create a plugin of the same name in the `custom/plugins/` directory and it will be loaded instead of the one in `plugins/`.
 
+If you would want to create and use a custom theme, just add a new file (ending in `.zsh-theme`) in the `custom/themes/` directory and update your `.zshrc` with your new theme name in `ZSH_THEME`.
+
 ## Getting Updates
 
 By default, you will be prompted to check for upgrades every few weeks. If you would like `oh-my-zsh` to automatically upgrade itself without prompting you, set the following in your `~/.zshrc`:
